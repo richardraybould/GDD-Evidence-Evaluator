@@ -50,3 +50,27 @@ Make sure you have the following three files ready:
      • A Per-Capability Rubric Table (10 areas if “All of them” selected)
    Never infer missing data — always collect interactively.
 
+## 4. 📚 Upload Knowledge Files
+
+1. In the GPT Builder, open the **Knowledge** (or **Upload files**) panel.
+2. Upload the following files:
+   - `GDD_Skill_Levels_descriptions.xlsx`
+   - `Senior developer - management_GDD_Description.rtf`
+3. In your **Instructions**, add a reminder for the model to use these files:
+   > Use the uploaded knowledge files as authoritative references for capability definitions and level descriptors. When drawing on them, align evaluations to these sources.
+
+---
+
+## 5. ⚙️ Enable Tools and Capabilities
+
+Open the **Configure** / **Capabilities** panel and set:
+
+| Capability | Setting | Purpose |
+|---|---|---|
+| **Web Browsing** | **ON** | Verify evolving DDaT/HMCTS references and cite sources when needed. |
+| **Code Interpreter (Python)** | **ON** | Generate timestamped CSV outputs and handle table/report formatting. |
+| **File Uploads** | **ON** | Allow large evidence submissions to be evaluated. |
+
+> No external Actions are required — everything runs with standard GPT tools.
+
+
