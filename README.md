@@ -1,6 +1,14 @@
 # GDD-Evidence-Evaluator
 Files and prompts to create an GPT to provide an assessment of GGD evidence.
 
+> ⚠️ **Important Notice**
+>
+> This tool is designed to **support** evidence evaluation against the GDD Capability Framework.  
+> It **must not** replace formal Line manager **validation, review, or assessment** processes.  
+> The evaluator provides structured scoring and feedback to **quantify the strength of evidence**  
+> and **highlight areas for submission improvement**, but final DDaT level decisions remain the  
+> responsibility of Line managers.
+
 ## 🗂️ Adding Other DDaT Roles
 
 To assess roles beyond **Software Developer**, follow these steps:
