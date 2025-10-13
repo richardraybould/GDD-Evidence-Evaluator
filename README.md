@@ -1,5 +1,21 @@
 # GDD-Evidence-Evaluator
-Files and prompts to create an GPT to provide an assessment of GGD evidence. 
+Files and prompts to create an GPT to provide an assessment of GGD evidence.
+
+## 🗂️ Adding Other DDaT Roles
+
+To assess roles beyond **Software Developer**, follow these steps:
+
+1. Visit the official [DDaT Capability Framework](https://ddat-capability-framework.service.gov.uk/role/software-developer).
+2. Locate and open the page for the **role** you want to include (e.g., Test Engineer, Delivery Manager, etc.).
+3. Copy the **level descriptions** (Awareness / Working / Practitioner / Expert) for that role.
+4. Save these as a new file inside your `descriptions` folder, following the same format as:
+   - `Senior developer - management_GDD_Description.rtf`
+5. Open the `GDD_Skill_Levels_descriptions.xlsx` file and add:
+   - The **role name**
+   - The **skill level**
+   - The **level descriptions**
+   
+> 💡 **Tip:** Keep the structure and formatting identical to the Senior Developer file to ensure the evaluator GPT can interpret and reference it correctly.
 
 # 🧩 Setup Guide — DDaT Evidence Evaluator (HMCTS) GPT
 
