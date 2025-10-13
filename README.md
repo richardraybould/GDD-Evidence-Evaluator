@@ -55,7 +55,7 @@ Make sure you have the following three files ready:
 1. In the GPT Builder, open the **Knowledge** (or **Upload files**) panel.
 2. Upload the following files:
    - `GDD_Skill_Levels_descriptions.xlsx`
-   - `Senior developer - management_GDD_Description.rtf`
+   - `Role GDD_Description.rtf files as required`
 3. In your **Instructions**, add a reminder for the model to use these files:
    > Use the uploaded knowledge files as authoritative references for capability definitions and level descriptors. When drawing on them, align evaluations to these sources.
 
